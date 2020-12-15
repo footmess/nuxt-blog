@@ -29,8 +29,7 @@
 export default {
   data() {
     return{
-      name:'张三'
-    }
+      name:'张三'}
   }
 }
 </script>
