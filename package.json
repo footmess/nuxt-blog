@@ -9,6 +9,7 @@
     "generate": "nuxt generate",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js",
+    "lint-fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "test": "jest"
   },
   "dependencies": {
@@ -29,7 +30,14 @@
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
     "jest": "^26.5.0",
+    "lint-staged": "^10.5.3",
     "prettier": "^2.1.2",
     "vue-jest": "^3.0.4"
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }

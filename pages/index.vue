@@ -26,7 +26,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return{
+      name:'张三'
+    }
+  }
+}
 </script>
 
 <style>
