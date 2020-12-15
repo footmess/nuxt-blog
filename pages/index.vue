@@ -28,8 +28,7 @@
 <script>
 export default {
   data() {
-    return{
-       name: '张三'},
+    return { name: '张三' }
   },
 }
 </script>
