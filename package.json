@@ -36,7 +36,9 @@
     "vue-jest": "^3.0.4"
   },
   "husky": {
-    "pre-commit": "lint-staged"
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.{js,jsx,vue}": [
