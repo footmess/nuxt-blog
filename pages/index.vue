@@ -28,9 +28,9 @@
 <script>
 export default {
   data() {
-    return{
+return{
       name:'张三'}
-  }
+}
 }
 </script>
 
