@@ -20,6 +20,7 @@
         >
           GitHub
         </a>
+        <nuxt-link to="/archive">Archive</nuxt-link>
       </div>
     </div>
   </div>
@@ -29,6 +30,9 @@
 export default {
   data() {
     return { name: '张三' }
+  },
+  mounted() {
+    console.log('in index')
   },
 }
 </script>
