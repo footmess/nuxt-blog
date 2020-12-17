@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div class="blog-layout">
+    <Nav />
     <Nuxt />
+    <BackToTop />
+    <Footer />
   </div>
 </template>
 

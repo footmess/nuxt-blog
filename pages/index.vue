@@ -4,7 +4,7 @@
     <div class="content">
       <div class="home-header">
         <nuxt-link class="link" to="/">
-          <img src="@/assets/img/logo.png" alt="" class="home-logo"
+          <img src="@/assets/img/tony.png" alt="" class="home-logo"
         /></nuxt-link>
       </div>
       <div class="home-body">

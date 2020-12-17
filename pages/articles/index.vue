@@ -1,9 +1,11 @@
 <template>
-  <div>2222</div>
+  <div>主体内容</div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'blog',
+}
 </script>
 
 <style></style>

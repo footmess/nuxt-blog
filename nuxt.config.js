@@ -11,12 +11,13 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ['element-ui/lib/theme-chalk/index.css'],
+  css: ['element-ui/lib/theme-chalk/index.css', '@/styles/index.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: ['@/plugins/element-ui', '@/plugins/http'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
+  // it will include the nuxt/components dependencies and auto import your components (defined in ~/components) when you use them in your templates.
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
@@ -36,6 +37,7 @@ export default {
 
   env: {
     baseURL: process.env.TYPE !== 'production' ? 'dev-api' : 'pro-api',
+    baseImgURL: 'https://img.b5csgo.com.cn/',
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
